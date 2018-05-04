@@ -27,7 +27,7 @@ This is a sample GEONIS gear AddIn, which allows the user to meaure distances in
 Like any other GEONIS gear map tool, the tool is located in the toolbar and activated by clicking on it. Once the tool is activated, click in the map to create a polyline. The lenght of the polyline and its segments will be displayed in the map.
 Deactivating the tool will remove the polyline and the measure labels from the map.
 
-
+![Alt text](https://github.com/geocom-gis/SampleMeasuringAddIn/blob/master/SampleMeasuringAddIn/measuring_sample_screenshot_1.png)
 
 ------
 ## Help

@@ -1,0 +1,11 @@
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasureingTool.csprojResolveAssemblyReference.cache
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasureingTool.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Geocom\GEONISgear\SampleMeasureingAddIn.dll
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\View\SampleMeasuringMapToolView.g.cs
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\View\SampleMeasuringMapToolView.baml
+C:\Program Files (x86)\Geocom\GEONISgear\SampleMeasuringAddIn.dll
+C:\Program Files (x86)\Geocom\GEONISgear\SampleMeasuringAddIn.pdb
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn_MarkupCompile.cache
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.g.resources
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.dll
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.pdb

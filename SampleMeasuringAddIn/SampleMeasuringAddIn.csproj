@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8D60318-1AF6-419B-8B04-E80AB39D7057}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SampleMeasuringAddIn</RootNamespace>
+    <AssemblyName>SampleMeasuringAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <!-- This bit starts gear with the selected Project -->
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files (x86)\Geocom\GEONISgear\GEONISgear.exe</StartProgram>
+    <StartArguments>/p opfikon</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>C:\Program Files (x86)\Geocom\GEONISgear</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NetTopologySuite, Version=1.13.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Geocom\GEONISgear\NetTopologySuite.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <!-- Third party references -->
+    <Reference Include="GalaSoft.MvvmLight">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoAPI, Version=1.7.0.0, Culture=neutral, PublicKeyToken=a1a0da7def465678, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GeoAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <!-- GEONIS references -->
+    <Reference Include="GEONIS.Core">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Application.Lightweight">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Application.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Application">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Core.Data">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Core.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Modules.Core">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Modules.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.gear.AddIn">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.gear.AddIn.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Runtime.Core">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Runtime.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Runtime.Core.Configuration">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Runtime.Core.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Runtime.Messages.DotNet">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Runtime.Messages.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="GEONIS.Ui.Wpf.ApplicationFramework">
+      <HintPath>C:\Program Files (x86)\Geocom\GEONISgear\GEONIS.Ui.Wpf.ApplicationFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SampleMeasuringAddIn.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleMeasuringMapTool.cs" />
+    <Compile Include="Services\SampleMeasuringDrawingService.cs" />
+    <Compile Include="ViewModel\SampleMeasuringMapToolViewModel.cs" />
+    <Compile Include="View\SampleMeasuringMapToolView.xaml.cs">
+      <DependentUpon>SampleMeasuringMapToolView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="View\SampleMeasuringMapToolView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\measure_img.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+      start xcopy "$(OutDir)$(TargetFileName)" "C:\Program Files (x86)\Geocom\GEONISgear\addins" /y
+      start xcopy "$(OutDir)$(TargetName).pdb" "C:\Program Files (x86)\Geocom\GEONISgear\addins" /y
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

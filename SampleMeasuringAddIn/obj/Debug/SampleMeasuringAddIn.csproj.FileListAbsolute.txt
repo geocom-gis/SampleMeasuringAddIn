@@ -1,0 +1,20 @@
+C:\Program Files (x86)\Geocom\GEONISgear\SampleMeasuringAddIn.dll
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.csprojResolveAssemblyReference.cache
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\View\SampleMeasuringMapToolView.g.cs
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn_MarkupCompile.cache
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn_MarkupCompile.lref
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\View\SampleMeasuringMapToolView.baml
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.g.resources
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.csproj.CoreCompileInputs.cache
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.dll
+C:\development\prototypes\gear_addins\SampleMeasureingTool\SampleMeasureingTool\obj\Debug\SampleMeasuringAddIn.pdb
+C:\Program Files (x86)\Geocom\GEONISgear\SampleMeasuringAddIn.pdb
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\SampleMeasuringAddIn.csprojResolveAssemblyReference.cache
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\View\SampleMeasuringMapToolView.g.cs
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\SampleMeasuringAddIn_MarkupCompile.cache
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\SampleMeasuringAddIn_MarkupCompile.lref
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\View\SampleMeasuringMapToolView.baml
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\SampleMeasuringAddIn.g.resources
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\SampleMeasuringAddIn.csproj.CoreCompileInputs.cache
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\SampleMeasuringAddIn.dll
+C:\development\prototypes\gear_addins\SampleMeasuringAddIn\SampleMeasuringAddIn\obj\Debug\SampleMeasuringAddIn.pdb

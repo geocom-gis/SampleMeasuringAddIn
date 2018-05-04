@@ -1,6 +1,6 @@
 # GEONIS gear sample measuring addin
 
-This is a sample GEONIS gear AddIn, which allows the user to meaure distances in a map. The tool shows the basic technics and mechanism on how to create an addin for GEONIS gear. It is based on the measuring tool provided with the product. For more information please contact: support@geocom.ch. 
+This is a sample GEONIS gear AddIn, which allows the user to measure distances in a map. The tool shows the basic technics and mechanism on how to create an addin for GEONIS gear. It is based on the measuring tool provided with the product. For more information please contact: support@geocom.ch. 
 
 #### DISCLAMER: Please be aware this product is not supported. Further information can be found in the license file.
 
